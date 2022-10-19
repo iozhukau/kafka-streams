@@ -25,7 +25,7 @@
 **Kafka Streams** — это библиотека Apache Kafka® для написания потоковых приложений и микросервисов на Java и Scala.
 
 
-<img src="https://docs.confluent.io/5.0.4/_images/ksql-kafka-streams-core-kafka-stack.png" width="600px" alt="ksql-kafka-streams-core-kafka-stack"/>
+<img src="https://docs.confluent.io/5.0.4/_images/ksql-kafka-streams-core-kafka-stack.png" width="800px" alt="ksql-kafka-streams-core-kafka-stack"/>
 
 ## Пример кода
 
@@ -124,7 +124,7 @@ object FraudFilteringApplication extends App {
 * **KSQL CLI** – консоль, которая предоставляет интерфейс командной строки (CLI) для движка.
 * **_KSQL UI_** – _позволяет разрабатывать приложения KSQL в Confluent Control Center._
 
-<img src="https://docs.confluent.io/5.0.4/_images/ksql-architecture-and-components.png" width="600px" alt="ksql-architecture-and-components"/>
+<img src="https://docs.confluent.io/5.0.4/_images/ksql-architecture-and-components.png" width="800px" alt="ksql-architecture-and-components"/>
 
 ## KSQL Language Elements
 
@@ -167,7 +167,7 @@ object FraudFilteringApplication extends App {
 Когда вы развертываете сервер KSQL в интерактивном режиме,
 интерфейс REST доступен для подключения KSQL CLI.
 
-<img src="https://docs.confluent.io/5.0.4/_images/ksql-client-server-interactive-mode.png" width="600px" alt="ksql-client-server-interactive-mode"/>
+<img src="https://docs.confluent.io/5.0.4/_images/ksql-client-server-interactive-mode.png" width="800px" alt="ksql-client-server-interactive-mode"/>
 
 **В интерактивном режиме вы можете:**
 
@@ -185,7 +185,7 @@ object FraudFilteringApplication extends App {
 определяющие ваше приложение. Безголовый режим идеально подходит
 для потокового развертывания приложений **ETL**.
 
-<img src="https://docs.confluent.io/5.0.4/_images/ksql-standalone-headless.png" width="600px" alt="ksql-standalone-headless"/>
+<img src="https://docs.confluent.io/5.0.4/_images/ksql-standalone-headless.png" width="800px" alt="ksql-standalone-headless"/>
 
 **В headless режиме вы можете:**
 
@@ -231,7 +231,7 @@ FROM authorization_attempts
   HAVING count(*) > 3;
 ```
 
-<img src="https://docs.confluent.io/5.0.4/_images/ksql-statement-logical-plan.gif" width="600px" alt="ksql-standalone-headless"/>
+<img src="https://docs.confluent.io/5.0.4/_images/ksql-statement-logical-plan.gif" width="800px" alt="ksql-standalone-headless"/>
 
 Порядок создания плана:
 1. Определить источник — узел **FROM**
